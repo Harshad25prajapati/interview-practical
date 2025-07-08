@@ -1,0 +1,509 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none
+}
+
+.logo h5{
+      font-family: "Qwigley", cursive;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-left: 20px;
+}
+
+.nevbar{
+ border: 1px solid black;
+ border-radius: 50px;
+ margin-top: 30px;
+position: fixed;
+width: 90%;
+background-color: white;
+}
+
+.menubar .menu{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.menubar .menu li:hover{
+    color: #46631E;
+    cursor: pointer;
+}
+
+.nevbar .about-button ul li{
+    background-color: #46631E;
+    margin-top: 15px;
+   text-align: center;
+   border-radius: 15px;
+   padding: 10px 20px;
+   color: white;
+}
+
+.menubar .menu .sub-menu{
+    background-color: #46631E;
+    padding: 10px 20px;
+    color: white;
+    display: none;
+    
+}
+
+.menubar .menu .sub-menu li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menubar .menu .first:hover .sub-menu{
+    display: block;
+    z-index: 1;
+    position: absolute;
+   
+}
+
+.menubar .menu .sub-menu li:hover{
+    color: black;
+}
+
+.menubar .menu .sub-sec{
+    background-color: #46631E;
+    padding: 10px 20px;
+    color: white;
+    display: none;
+    
+}
+
+
+.menubar .menu .second:hover .sub-sec{
+    display: block;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.menubar .menu .sub-sec li:hover{
+    color: black;
+}
+
+
+.nevbar .about-button ul li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.about-sec .about-det h4 {
+    width:86% ;
+    margin-top: 80px;
+    font-size: 50px;
+    margin-left: 70px;
+}
+
+.about-sec .about-det h3{
+    margin-top: 40px;
+    margin-left:70px;
+    font-size: 15px;
+    background-color: #46631E;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 400;;
+}
+
+.about-sec .about-det h3:hover{
+     background-color: black;
+    cursor: pointer;  
+}
+
+.about-sec .about-img{
+    margin-top: 40px;
+}
+
+.achivement-sec .achivement-img {
+    margin-top: 70px;
+
+}
+
+.achivement-sec .achivement-det h5{
+  margin-top: 150px;
+  font-size: 50px;
+  width: 100%;
+
+}
+
+.achivement-sec .achivement-det p{
+    margin-top: 25px;
+    width: 82%;
+}
+
+.achivement-sec .achivement-det .button{
+    display: flex;
+}
+
+.achivement-sec .achivement-det .button .read-more{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #46631E;
+    color: white;
+    border-radius: 15px;
+    font-weight: 400;
+}
+
+.achivement-sec .achivement-det .button .read-more:hover{
+   background-color: black;
+    cursor: pointer;    
+}
+
+
+.achivement-sec .achivement-det .button .contact-us{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #46631E;
+    color: white;
+    border-radius: 15px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+
+.achivement-sec .achivement-det .button .contact-us:hover{
+   background-color: black;
+    cursor: pointer;    
+}
+
+
+.award-sec .award-det{
+    background-color: #46631E;
+    margin-top: 70px;
+}
+
+.award-sec .award-det h6{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.award-sec .award-det p{
+    color: white;
+    font-size: 35px;
+    width: 88%;
+    text-align: center;
+   padding-left:50px;
+}
+
+.award-sec .award-det h6{
+   font-family: "Qwigley", cursive;
+   font-size: 40px; 
+}
+
+.award-sec .award-pic img{
+    width: 600px;
+    margin-top: 130px;
+    margin-left: -70px;
+}
+
+
+.blog .blog-heading h5{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.blog .blog-heading h5:hover{
+   color: #46631E;
+   cursor: pointer; 
+}
+
+.blog-sec .blog-img{
+    margin-left: -120px;
+    margin-top: 270px;
+}
+
+.blog-dec .blog-det p{
+    width: 75%;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 100px; 
+}
+
+.blog-dec .blog-det h4{
+    background-color: #46631E;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 15px; 
+    margin-top: 10px;
+     margin-left: 100px; 
+}
+
+
+
+.blog-dec .blog-det h4:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.network-sec h5{
+    text-align: center;
+    margin-top:50px;
+    font-size: 40px;
+    color: #46631E;
+
+}
+
+.network-sec h5:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.network-sec p{
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 225px;
+
+
+}
+
+.network-part .network-part-one h4{
+    font-size: 40px;
+    color: #46631E;
+    margin-left: 110px;
+    margin-top: 70px;
+    
+}
+
+.network-speeker{
+    margin-left: 80px;
+}
+
+.network-part .network-part-one p{
+    width: 94%;
+    margin-top: 30px;
+}
+
+.network-part .network-part-one h3{
+    font-size: 15px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.network-part .network-part-one h3:hover{
+    color: #46631E;
+    cursor: pointer;
+}
+
+.network-part .network-part-two h4{
+    font-size: 40px;
+    color: #46631E;
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+.network-part .network-part-two p{
+    width: 94%;
+    margin-top: 30px;
+}
+
+.network-part .network-part-two h3{
+    font-size: 15px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.network-part .network-part-two h3:hover{
+    color: #46631E;
+    cursor: pointer;
+}
+
+.network-part .network-part-three h4{
+    font-size: 40px;
+    color: #46631E;
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+.network-part .network-part-three p{
+    width: 94%;
+    margin-top: 30px;
+}
+
+.network-part .network-part-three h3{
+    font-size: 15px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.network-part .network-part-three h3:hover{
+    color: #46631E;
+    cursor: pointer;
+}
+
+.event-sec .event-det .event-pic-one{
+    margin-top: 60px;
+    border-radius: 30px;
+    margin-left: 170px;
+}
+
+.event-sec .event-det .event-pic-two{
+    margin-top: -190px;
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+}
+
+
+.event-sec .event-dec h5{
+    margin-top: 150px;
+    color: #46631E;
+    font-weight: 700;
+}
+
+.event-sec .event-dec h6{
+    font-size: 40px;
+    width: 89%;
+}
+
+.event-sec .event-dec p{
+    margin-top: 20px;
+    width: 94%;
+}
+
+.event-sec .event-dec h4{
+    background-color: #46631E;
+    padding: 15px 30px;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 15px;
+}
+
+.event-sec .event-dec h4:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #46631E;
+    margin-top: 80px;
+}
+
+.footer-sec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer-sec .footer-logo h5{
+    margin-top: 80px;
+    color: white;
+    font-family: "Qwigley", cursive;
+    font-size: 40px;
+}
+
+.footer-sec .footer-logo p{
+    color: white;
+    width: 80%;
+}
+
+
+.footer-sec .footer-logo .social-icon{
+    display: flex;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+
+.footer-sec .footer-logo .social-icon p:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.location {
+    display: flex; 
+    gap: 10px; 
+}
+
+
+.location-sec h5{
+    margin-top: 80px;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.location .address  p{
+    width: 80%;
+    color: white;
+}
+
+.location .location-logo p{
+    color: white;
+}
+
+.location-sec .book-opp h5{
+    margin-top: 20px;
+}
+
+.location-sec .book-opp .ticket-sec{
+    display: flex; 
+    gap: 10px; 
+}
+
+.location-sec .book-opp .ticket-sec .ticket-logo p{
+    color: white;
+}
+
+.location-sec .book-opp .ticket-sec .con-num p{
+    color: white;
+}
+
+.footer-sec .link-sec{
+    margin-top: 80px;
+}
+
+.footer-sec .link-sec h5{
+    color: white;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.footer-sec .link-sec .quick-links{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.footer-sec .link-sec .quick-links li{
+ padding-bottom: 20px;
+ color: white;
+}
+
+.footer-sec .event-sec h5{
+    margin-top: 80px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.footer-sec .event-sec .event-links {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.footer-sec .event-sec .event-links li{
+    padding-bottom: 20px;
+}
+
