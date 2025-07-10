@@ -1,0 +1,261 @@
+@media (max-width:1400px){
+  .w-1320{
+    width: 1320px;
+  }
+}
+
+
+@media (max-width:1200px){
+    .w-1320{
+        width: 1140px;
+    }
+}
+
+
+
+@media (max-width:992px){
+    .w-1320{
+        width: 960px;
+    }
+}
+
+
+
+@media (max-width:768px){
+    .w-1320{
+        width: 720px;
+    }
+
+
+.achivement-sec .achivement-det h5 {
+    margin-left: 67px;
+}
+
+.achivement-sec .achivement-det p {
+    margin-left: 68px;
+}
+
+
+.nevbar{
+    width: 74%;
+}
+
+.logo h5 {
+ font-size: 24px;
+ margin-top: 26px;
+  
+}
+
+
+.menubar .menu
+ {
+    margin-top: 27px;
+    font-size: 14px;
+    gap: 36px;
+}
+
+.nevbar .about-button ul li {
+    margin-top: 15px;
+    padding: 10px 8px;
+    font-size: 14px;
+   
+}
+
+.nevbar .about-button ul{
+    padding-left: 0px;
+}
+
+.nevbar .about-button{
+    padding-left: 0px;
+}
+
+
+.about-sec .about-det h4 {
+    margin-left: 32px;
+}
+
+.about-sec .about-img img {
+    width: 344px;
+}
+
+
+.about-sec .about-det h3 {
+    margin-left: 36px;
+}
+
+
+
+.award-sec .award-det p {
+    font-size: 20px;
+    width: 75%;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.award-sec .award-det h6 {
+   margin-right: 33px;
+}
+
+
+.award-sec .award-pic img {
+    width: 400px;
+    margin-top: 171px;
+    margin-left: -70px;
+}
+
+
+
+.blog-dec .blog-sec img{
+    width: 200px;
+    height: 250px;
+}
+
+
+
+.blog-dec .blog-sec .blog-img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.blog-dec .blog-det{
+    margin-left: -124px;
+    width: 60%;
+}
+
+
+.blog .blog-heading h5 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+
+.network-sec p {
+    margin-left: 129px;
+}
+
+
+.network-part .network-part-one p {
+    width: 97%;
+    font-size: 14px;
+}
+
+
+.network-part .network-part-one h3 {
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+
+.network-part .network-part-one h4 {
+    font-size: 30px;
+    margin-left: 68px;
+    margin-top: 86px;
+}
+
+
+.network-part .network-part-two h4 {
+    font-size: 30px;
+    margin-left: 62px;
+    margin-top: 84px;
+}
+
+
+.network-part .network-part-two p {
+    width: 97%;
+    margin-top: 33px;
+    font-size: 14px;
+}
+
+.network-part .network-part-two h3 {
+    font-size: 14px;
+    margin-left: 38px;
+}
+
+
+.network-part .network-part-three h4 {
+    font-size: 30px;
+    margin-left: 74px;
+    margin-top: 83px;
+}
+
+.network-part .network-part-three p {
+    width: 97%;
+    margin-top: 34px;
+    font-size: 14px;
+}
+
+.network-part .network-part-three h3 {
+    font-size: 14px;
+    margin-left: 49px;
+}
+
+.event-sec .event-det .event-pic-one{
+            width: 185px;
+        height: 206px;
+        margin-top: 148px;
+}
+
+
+.event-sec .event-det .event-pic-two {
+    margin-top: -128px;
+    width: 177px;
+    height: 222px;
+    margin-left: 50px;
+}
+
+.event-sec .event-dec h5 {
+    font-size: 15px;
+}
+
+.event-sec .event-dec h6 {
+    font-size: 32px;
+
+}
+
+.event-sec .event-dec p {
+    font-size: 14px;
+}
+
+.event-sec .event-dec h4 {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+
+.footer-sec .footer-logo p {
+    width: 100%;
+}
+
+.location .address p {
+    width: 100%;
+    font-size: 14px;
+}
+
+.location-sec .book-opp h5
+ {
+    width: 91%;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.location-sec .book-opp .ticket-sec .con-num p {
+    font-size: 14px;
+}
+
+.footer-sec .link-sec h5 {
+    width: 500px;
+}
+
+.footer-sec .link-sec .quick-links li {
+    width: 500px;
+}
+}
+
+
+@media (max-width:576px){
+        .w-1320{
+        width: 100%;
+        padding: 0px 15px 0px 15px;
+        }
+    }
